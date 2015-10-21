@@ -1,5 +1,5 @@
 __author__ = 'duye'
-  # -*- coding: utf-8 -*-
+
 
 class Vertex(object):
     """定义点，继承自object"""
@@ -62,10 +62,7 @@ class Graph(dict):
 
     def vertices(self):
         """返回图中顶点列表"""
-        vs = []
-        for v in self:
-            vs.append(v)
-        return vs
+        return list(self.keys())
 
     def edges(self):
         """返回所有边的列表"""

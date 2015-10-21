@@ -12,3 +12,4 @@ def alphabet_digit_cycle():
 it= alphabet_digit_cycle()
 for c in it:
     print(c)
+
